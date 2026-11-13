@@ -1,0 +1,11 @@
+LAPORAN ANALISIS KONTEN NLP KOMPREHENSIF
+Analisis Transkrip Wicara, Sentimen, dan Topik pada Video YouTube Mahfud MD: 'Menyadap Presiden, Makar!'
+
+Ringkasan Eksekutif:
+Proyek ini menyajikan analisis Natural Language Processing (NLP) hulu-ke-hilir terhadap konten video YouTube Mahfud MD berjudul "MAHFUD MD: MENYADAP PRESIDEN, MAKAR!". Menggunakan model pemrosesan suara OpenAI Whisper (small), transkrip audio berdurasi 40 menit 23 detik berhasil diekstraksi ke dalam 1.018 segmen wicara terstruktur tanpa kehilangan data. Melalui pembersihan teks, stemming Sastrawi, klasifikasi sentimen menggunakan IndoBERT pretrained model, dan pemodelan topik Latent Dirichlet Allocation (LDA), proyek ini berhasil memetakan dinamika pesan kunci secara temporal.
+
+Temuan Utama:
+1. Dominasi Kosakata: Kata "tidak" (83 kali), "mundur" (83 kali), dan "presiden" (82 kali) menduduki peringkat teratas unigram. Kombinasi bigram terkuat adalah "undang undang" (23 kali) dan "tidak mundur" (8 kali), merefleksikan perdebatan konstitusional.
+2. Polaritas Sentimen (IndoBERT): Mayoritas segmen diklasifikasikan sebagai Positif (55.9%, 569 segmen), disusul oleh Negatif (38.2%, 389 segmen), dan Netral (5.9%, 60 segmen). Pola sentimen positif didominasi oleh pernyataan normatif, harapan penegakan hukum, dan kecintaan terhadap NKRI.
+3. Segmentasi Topik (LDA): Model LDA (K=4) mengidentifikasi empat pilar pembahasan utama: Isu Pengunduran Diri Wapres (26.8%), Regulasi Hukum & Lembaga Negara (21.7%), Kontroversi Makar & Penyadapan (22.2%), serta Diskusi Interaktif & Pendapat Umum (29.3%).
+4. Korelasi Linimasa: Analisis temporal (interval 2 menit) menunjukkan lonjakan sentimen negatif yang bertepatan dengan bahasan sensitif mengenai isu penyadapan kepala negara dan tuduhan makar pada menit ke 18-22 dan menit ke 30-38.

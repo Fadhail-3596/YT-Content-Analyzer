@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Dataset, Audio, dan Output Hasil Generate (ukuran file besar)
+dataset/
+content/
+*.m4a
+*.mp3
+*.wav
+*.mp4
+*.csv
+*.json
+*.txt
+*.docx
+*.pdf
+*.png
+
+# Pengecualian agar file dokumentasi & dependensi tetap ter-track Git
+!README.md
+!requirements.txt
+
+# Model cache (HuggingFace / Whisper / NLTK)
+.cache/
+nltk_data/
+*.pt
+*.bin
+*.safetensors
+
+# OS & Editor generated files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
